@@ -1,0 +1,26 @@
+#encabezado{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    height: 9%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+menu{
+    
+    position: absolute;
+    top: 8%;
+    left: 0;
+    height: 5%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+}
+
+#menu a hover{
+    background-color: #ffffff;
+    color: skyblue;
+}
