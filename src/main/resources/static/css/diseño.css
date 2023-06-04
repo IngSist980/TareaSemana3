@@ -1,6 +1,6 @@
-#encabezado{
+#encabezado {
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
     height: 9%;
     width: 100%;
@@ -8,19 +8,80 @@
     color: white;
     text-align: center;
 }
-menu{
-    
-    position: absolute;
+
+
+#menu {
+    position: relative;
     top: 8%;
     left: 0;
     height: 5%;
     width: 100%;
     background-color: black;
     color: white;
-    
 }
 
-#menu a hover{
+#menu a:hover {
     background-color: #ffffff;
     color: skyblue;
 }
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 9%;
+  width: 100%;
+  background-color: black;
+  color: blue;
+  text-align: center;
+  font-size: 25px;
+  padding: 11px;
+  margin: 0;
+  line-height: 1.9; 
+}
+
+
+body{
+   
+background-image:url("https://cdn.datosmundial.com/pics/og/mount-everest.jpg");
+
+    background-size: cover;
+    background-position: center;
+    alignment-adjust: auto;
+    
+
+}
+.marco-imagen{
+    border: 3px solid black;
+    padding: 6px;
+    background-image: url("images/atracciones1.jpg");
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li:before {
+    content: "\2022";
+    margin-right: 5px;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 5px;
+}
+
+ol[type="a"] {
+    list-style-type: lower-alpha;
+}
+
+ol[type="i"] {
+    list-style-type: lower-roman;
+}
+
+

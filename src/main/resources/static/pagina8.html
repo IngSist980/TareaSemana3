@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Montana - Registro Exitoso</title>
+    <meta charset="UTF-8">
+    <link href="css/estilos.css" rel="stylesheet" type="text/css"/> 
+</head>
+<body>
+    <nav>
+        <a href="pagina7.html">Back</a> |
+        <a href="Home.html">Home</a> |
+        <a href="pagina9.html">Next</a>
+    </nav>
+
+    <h1>Registro Exitoso</h1>
+
+    <div id="mensaje"></div>
+
+    <script>
+        // Obtener los parámetros enviados en la URL
+        const urlParams = new URLSearchParams(window.location.search);
+
+        // Verificar si se recibió el parámetro "registro" con el valor "exitoso"
+        if (urlParams.get("registro") === "exitoso") {
+            // Mostrar el mensaje de éxito
+            document.getElementById("mensaje").innerHTML = "<p>Tu registro ha sido almacenado correctamente.</p>";
+        } else {
+            // Mostrar un mensaje de error
+            document.getElementById("mensaje").innerHTML = "<p>Ha ocurrido un error al procesar tu registro.</p>";
+        }
+    </script>
+</body>
+</html>
